@@ -1,0 +1,27 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "projeto back end",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreLucca19/Back-End-.git"
+  },
+  "author": "André Lucca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreLucca19/Back-End-/issues"
+  },
+  "homepage": "https://github.com/AndreLucca19/Back-End-#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "uuid": "^11.0.5"
+  }
+}
