@@ -1,7 +1,8 @@
-const Movie = require('../models/movie');
-const MovieList = require('../models/movieList');
+const Movie = require('../models/Movie');
+const MovieList = require('../models/MovieList');
 
 const lista = new MovieList();
+
 const filme1 = new Movie('Aventura nas Estrelas', 'Justin Lin', 'Universal', '15 de abril de 2011');
 const filme2 = new Movie('O Mistério da Ilha', 'James Wan', 'Universal', '15 de abril de 2015');
 
